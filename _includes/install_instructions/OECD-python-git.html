@@ -16,7 +16,7 @@
     Run the following steps:
     <ul>
         <li> Create a project folder and create a Python venv environment containing the dependencies from
-            <a href="requirements.txt">requirements</a>
+            <a href="assets/files/requirements.txt">requirements.txt</a>
         </li>
         <li>
             Install the VSCode extensions <a
@@ -109,33 +109,30 @@
     <ul>
         <li>Create a folder in your local filesystem that will contain the project: `C:/SmartData/Carpentries`</li>
         <li>Open VSCode and open the newly created folder using the `File` > `Open Folder` dialog</li>
-        <li>Add the <a href="{{ relative_root_path }}/files/requirements.txt">requirements.txt</a>
+        <li>Add the <a href="assets/files/requirements.txt">requirements.txt</a>
             file to the project folder</li>
 
         <li>Create a dedicated Python environment for this project:
             <ul>
                 <li>Click on the search bar on the center top of the VSCode window, select `Show and Run Commands (Ctrl
-                    + Shift + P)`<br> <img src="{{ relative_root_path }}/assets/img/VSC_search_bar.png"
-                        alt="VSCode Search Bar" />
+                    + Shift + P)`<br> <img src="assets/img/VSC_search_bar.png" alt="VSCode Search Bar" />
                 </li>
                 <li>In the search menu type `Python: Select Interpreter` > `+ Create Virtual Environment` > `Venv` and
                     select the global Python installed via the Software center at
                     `~\AppData\Local\Microsoft\WindowsApps\python3.12.exe`
-                    <br><img src="{{ relative_root_path }}/assets/img/VSC_select_global_interpreter.png"
+                    <br><img src="assets/img/VSC_select_global_interpreter.png"
                         alt="VSCode Select Global Interpreter" />
                 </li>
                 <li>VSCode will recognize the `requirements.txt` file and ask you if the dependencies should be
                     installed in the new environment. Confirm this and click `Ok`. VSCode will take a few seconds to
                     setup the environment and install the dependencies.
-                    <br><img src="{{ relative_root_path }}/assets/img/VSC_install_requirements.png"
-                        alt="VSCode Install Requirements" />
+                    <br><img src="assets/img/VSC_install_requirements.png" alt="VSCode Install Requirements" />
                 </li>
                 <li>Once the installation is complete, VSCode will confirm that the new environment is now in use for
                     the project. The created environment is stored in a newly created `.venv` folder in the project.
                     To confirm that this environment is now selected as interpreter for the project, check the bottow
                     right of the VSCode window:
-                    The current interpreter should be indicated as <img
-                        src="{{ relative_root_path }}/assets/img/VSC_selected_interpreter.png"
+                    The current interpreter should be indicated as <img src="assets/img/VSC_selected_interpreter.png"
                         alt="VSCode Selected Interpreter" /> </li>
             </ul>
         </li>
